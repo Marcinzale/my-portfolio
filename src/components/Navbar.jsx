@@ -95,13 +95,16 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Social icons */}
+      {/* SOCIAL ICONS */}
+
       <div className="hidden lg:flex fixed flex-col left-0 top-[35%]">
         <ul>
           <li className="w-40 h-12 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/marcinzale"
+              target="_blank"
+              rel="noreferrer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -110,19 +113,21 @@ const Navbar = () => {
           <li className="w-40 h-12 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/Marcinzale"
+              target="_blank"
+              rel="noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
           </li>
 
           <li className="w-40 h-12 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-purple-600">
-            <a
+            <Link
+              to="contact" smooth={true} duration={500}
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
             >
               E-mail <HiOutlineMail size={30} />
-            </a>
+            </Link>
           </li>
 
           <li className="w-40 h-12 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-900">
