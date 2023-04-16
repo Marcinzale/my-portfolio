@@ -4,7 +4,7 @@ import RealEstate from "../assets/projects/realestate.jpg";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen bg-blue-950 text-gray-300">
+    <div name="work" className="w-full h-screen md:h-screen bg-blue-950 text-gray-300 pt-6">
       <div className="max-w-5xl mx-auto px-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
