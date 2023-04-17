@@ -4,13 +4,13 @@ import RealEstate from "../assets/projects/realestate.jpg";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full h-screen md:h-screen bg-blue-950 text-gray-300 pt-6">
-      <div className="max-w-5xl mx-auto px-4 flex flex-col justify-center w-full h-full">
+    <div name="work" className='w-full h-full md:h-screen bg-blue-950 text-gray-300 pt-14'>
+      <div className="max-w-5xl mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
             Work
           </p>
-          <p className="py-4">Check out some of my recent work</p>
+          <p className="py-6">Check out some of my recent work</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">

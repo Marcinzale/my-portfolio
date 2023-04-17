@@ -12,13 +12,13 @@ const Home = () => {
         <h1 className="text-3xl sm:text-6xl font-bold text-cyan-200">
           Marcin Zalewski
         </h1>
-        <h2 className="text-3xl sm:text-6xl font-bold text-gray-500">
-          I’m a full-stack developer
+        <h2 className="text-xl sm:text-4xl font-bold text-gray-500">
+          I’m a mobile / frontend developer
         </h2>
         <p className="text-gray-400 py-4 max-w-lg">
-          I’m a full-stack developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I’m focused on
-          building responsive full-stack web applications.
+          I’m a mobile/ frontend developer specializing in building and
+          designing exceptional digital experiences. Currently, I’m focused on
+          building Android mobile apps and responsive web pages.
         </p>
 
         <div>
