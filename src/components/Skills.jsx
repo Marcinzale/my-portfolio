@@ -1,28 +1,30 @@
 import React from 'react';
 
-import Android from '../assets/Android logo.png';
-import Java from '../assets/Java logo.png';
-import Kotlin from '../assets/Kotlin logo.png';
-import ReactImg from '../assets/react.png';
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import JavaScript from '../assets/javascript.png';
-import GitHub from '../assets/github.png';
-import Python from '../assets/Python logo.png';
-import Tailwind from '../assets/tailwind.png';
+import Android from '../assets/Android_logo.png';
+import Java from '../assets/Java_logo.png';
+import Kotlin from '../assets/Kotlin_logo.png';
+import ReactImg from '../assets/React_logo.png';
+import HTML from '../assets/Html_logo.png';
+import CSS from '../assets/Css_logo.png';
+import JavaScript from '../assets/Javascript_logo.png';
+import GitHub from '../assets/Github_logo.png';
+import Python from '../assets/Python_logo.png';
+import Tailwind from '../assets/Tailwind_logo.png';
 import Bootstrap from '../assets/Bootstrap_logo.png';
-import Figma from '../assets/Figma logo.png';
+import Figma from '../assets/Figma_logo.png';
 
 const Skills = () => {
   return (
     <div name='skills' className='w-full h-screen bg-blue-950 text-gray-300'>
       
-      {/* Container */}
+      {/* Container Title*/}
       <div className='max-w-5xl mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
               <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
               <p className='py-4'>These are some of the technologies I've worked with</p>
           </div>
+
+          {/* Container Cards*/}
 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
               <div className='shadow-md shadow-gray-900 hover:scale-110 duration-500'>

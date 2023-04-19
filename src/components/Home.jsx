@@ -12,8 +12,8 @@ const Home = () => {
         <h1 className="text-3xl sm:text-6xl font-bold text-cyan-200">
           Marcin Zalewski
         </h1>
-        <h2 className="text-xl sm:text-4xl font-bold text-gray-500">
-          I’m a mobile / frontend developer
+        <h2 className="text-xl sm:text-4xl pt-2 text-gray-500">
+          I’m a mobile and frontend developer
         </h2>
         <p className="text-gray-400 py-4 max-w-lg">
           I’m a mobile/ frontend developer specializing in building and
