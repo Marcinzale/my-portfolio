@@ -1,20 +1,24 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import WorkImg from "../assets/projects/workImg.jpeg";
 import RealEstate from "../assets/projects/realestate.jpg";
 
+import ChatGpt from "../assets/ChatGpt.jpg";
+import Bmi from "../assets/Bmi.jpg";
 import WeatherJS from "../assets/projects/WeatherJSImg.png";
 import QRCodeGenerator from "../assets/projects/QRCodeGen.png";
 import ThisWebsite from "../assets/projects/ThisWebsite.png";
 
 import ModalChatGpt from "./ModalChatGpt";
+import ModalBmi from "./ModalBmi";
 
 const Work = () => {
+  const [showModalChatGpt, setShowModalChatGpt] = useState(false);
+  const [showModalBmi, setShowModalBmi] = useState(false);
 
-  const [showModal, setShowModal] = useState(false)
+  const handleOnCloseGpt = () => setShowModalChatGpt(false);
+  const handleOnCloseBmi = () => setShowModalBmi(false);
 
-  const handleOnClose = () => setShowModal(false)
-
-  return (    
+  return (
     <div
       name="work"
       className="w-full h-full md:h-screen bg-blue-950 text-gray-300 pt-14"
@@ -28,12 +32,13 @@ const Work = () => {
           {/* <p className="text-stone-400 text-sm">- Mobile projects</p> */}
         </div>
 
-        <ModalChatGpt onClose={handleOnClose} visible={showModal}/>
+        <ModalChatGpt onClose={handleOnCloseGpt} visible={showModalChatGpt} />
+        <ModalBmi onClose={handleOnCloseBmi} visible={showModalBmi} />
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Work card 1 */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${ChatGpt})` }}
             className="shadow-lg shadow-gray-900 group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
@@ -45,10 +50,12 @@ const Work = () => {
               {/* Buttons on work card */}
               <div className="pt-8 text-center">
                 {/* <a href=" "> */}
-                  <button onClick={() => setShowModal(true)} 
-                    className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
+                <button
+                  onClick={() => setShowModalChatGpt(true)}
+                  className="ModalChatGpt text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
+                >
+                  Demo
+                </button>
                 {/* </a> */}
 
                 <a href="/">
@@ -63,22 +70,25 @@ const Work = () => {
 
           {/* Work card 2 */}
           <div
-            style={{ backgroundImage: `url(${RealEstate})` }}
-            className="shadow-lg shadow-gray-900 group container rounded-md flex justify-center items-center mx-auto content-div"
+            style={{ backgroundImage: `url(${Bmi})` }}
+            className="shadow-lg shadow-gray-900 group container rounded-md flex justify-center items-center mx-auto content-div "
           >
             {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 duration-300">
-              <span className="text-2xl font-bold text-white tracking-wide">
-                React JS application
+            <div className="opacity-0 group-hover:opacity-100 duration-300 text-center">
+              <span className="text-xl font-bold text-white tracking-wide">
+                Android mobile app that calculats BMI
               </span>
 
               {/* Buttons on work card */}
               <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
+                {/* <a href="/"> */}
+                <button
+                  onClick={() => setShowModalBmi(true)}
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
+                >
+                  Demo
+                </button>
+                {/* </a> */}
 
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -93,7 +103,7 @@ const Work = () => {
           {/* Work card 3 */}
           <div
             style={{ backgroundImage: `url(${WorkImg})` }}
-            className="shadow-lg shadow-gray-900 group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-gray-900 group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
             <div className="opacity-0 group-hover:opacity-100 duration-300">
@@ -175,7 +185,11 @@ const Work = () => {
                   </button>
                 </a>
 
-                <a href="https://github.com/Marcinzale/Flask-QR-Code-Generator" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/Marcinzale/Flask-QR-Code-Generator"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -204,7 +218,11 @@ const Work = () => {
                   </button>
                 </a>
 
-                <a href="https://github.com/Marcinzale/react-tailwindcss-portfolio" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/Marcinzale/react-tailwindcss-portfolio"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
