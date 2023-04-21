@@ -5,6 +5,7 @@ import RealEstate from "../assets/projects/realestate.jpg";
 import ChatGpt from "../assets/ChatGpt.jpg";
 import Bmi from "../assets/Bmi.jpg";
 import Coin from "../assets/Coin.jpg";
+import Weather from "../assets/Weather.jpg";
 import WeatherJS from "../assets/projects/WeatherJSImg.png";
 import QRCodeGenerator from "../assets/projects/QRCodeGen.png";
 import ThisWebsite from "../assets/projects/ThisWebsite.png";
@@ -12,15 +13,18 @@ import ThisWebsite from "../assets/projects/ThisWebsite.png";
 import ModalChatGpt from "./ModalChatGpt";
 import ModalBmi from "./ModalBmi";
 import ModalCoin from "./ModalCoin";
+import ModalWeather from "./ModalWeather";
 
 const Work = () => {
   const [showModalChatGpt, setShowModalChatGpt] = useState(false);
   const [showModalBmi, setShowModalBmi] = useState(false);
   const [showModalCoin, setShowModalCoin] = useState(false);
+  const [showModalWeather, setShowModalWeather] = useState(false);
 
   const handleOnCloseGpt = () => setShowModalChatGpt(false);
   const handleOnCloseBmi = () => setShowModalBmi(false);
   const handleOnCloseCoin = () => setShowModalCoin(false);
+  const handleOnCloseWeather = () => setShowModalWeather(false);
 
   return (
     <div
@@ -39,6 +43,7 @@ const Work = () => {
         <ModalChatGpt onClose={handleOnCloseGpt} visible={showModalChatGpt} />
         <ModalBmi onClose={handleOnCloseBmi} visible={showModalBmi} />
         <ModalCoin onClose={handleOnCloseCoin} visible={showModalCoin} />
+        <ModalWeather onClose={handleOnCloseWeather} visible={showModalWeather} />
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Work card 1 */}
@@ -141,7 +146,43 @@ const Work = () => {
           </div>
           {/* End of work card 3 */}
 
-          {/* Work card 4 */}
+           {/* Work card 4 */}
+           <div
+            style={{ backgroundImage: `url(${Weather})`,
+            backgroundSize: 'contain',
+            backgroundRepeat: 'no-repeat'  }}
+            className="shadow-lg shadow-gray-900 group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover effects */}
+            <div className="opacity-0 group-hover:opacity-100 duration-300">
+              <span className="text-xl font-bold text-white tracking-wide">
+                Flutter Android weather app
+              </span>
+
+              {/* Buttons on work card */}
+              <div className="pt-8 text-center">
+              <button
+                  onClick={() => setShowModalWeather(true)}
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
+                >
+                  Demo
+                </button>
+
+                <a
+                  href="https://github.com/Marcinzale/flutter-weather-app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* End of work card 4 */}
+
+          {/* Work card 5 */}
           <div
             style={{ backgroundImage: `url(${WeatherJS})` }}
             className="shadow-lg shadow-gray-900 group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -176,40 +217,9 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/* End of work card 4 */}
-
-          {/* Work card 5 */}
-          <div
-            style={{ backgroundImage: `url(${QRCodeGenerator})` }}
-            className="shadow-lg shadow-gray-900 group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 duration-300">
-              <span className="text-xl font-bold text-white tracking-wide">
-                Python / Flask Web app
-              </span>
-
-              {/* Buttons on work card */}
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-
-                <a
-                  href="https://github.com/Marcinzale/Flask-QR-Code-Generator"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
           {/* End of work card 5 */}
+
+         
 
           {/* Work card 6 */}
           <div
