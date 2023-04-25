@@ -11,6 +11,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/mz-logo.png";
 import { Link } from "react-scroll";
+import CV from '../assets/CV_Marcin_Zalewski.pdf';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -133,7 +134,8 @@ const Navbar = () => {
           <li className="w-40 h-12 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-900">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href={CV} target="_blank"
+              rel="noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
