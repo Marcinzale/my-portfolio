@@ -41,7 +41,7 @@ const Skills = () => {
               </div>
               <div className='shadow-md shadow-gray-900 hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={ReactImg} alt="React Native icon" />
-                  <p className='my-4'>React Native</p>
+                  <p className='my-4'>React</p>
               </div>
               <div className='shadow-md shadow-gray-900 hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />

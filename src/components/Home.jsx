@@ -13,10 +13,10 @@ const Home = () => {
           Marcin Zalewski
         </h1>
         <h2 className="text-xl sm:text-4xl pt-2 text-gray-500">
-          I’m a mobile and frontend developer
+          I’m a mobile and web developer
         </h2>
         <p className="text-gray-400 py-4 max-w-lg">
-          I’m a mobile/ frontend developer specializing in building and
+          I’m a mobile and web developer specializing in building and
           designing exceptional digital experiences. Currently, I’m focused on
           building Android mobile apps and responsive web pages.
         </p>
