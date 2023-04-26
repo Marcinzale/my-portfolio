@@ -43,14 +43,19 @@ const Work = () => {
         <ModalChatGpt onClose={handleOnCloseGpt} visible={showModalChatGpt} />
         <ModalBmi onClose={handleOnCloseBmi} visible={showModalBmi} />
         <ModalCoin onClose={handleOnCloseCoin} visible={showModalCoin} />
-        <ModalWeather onClose={handleOnCloseWeather} visible={showModalWeather} />
+        <ModalWeather
+          onClose={handleOnCloseWeather}
+          visible={showModalWeather}
+        />
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Work card 1 */}
           <div
-            style={{ backgroundImage: `url(${ChatGpt})`,
-            backgroundSize: 'contain',
-            backgroundRepeat: 'no-repeat' }} 
+            style={{
+              backgroundImage: `url(${ChatGpt})`,
+              backgroundSize: "contain",
+              backgroundRepeat: "no-repeat",
+            }}
             className="shadow-lg shadow-gray-900 group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
@@ -70,7 +75,11 @@ const Work = () => {
                 </button>
                 {/* </a> */}
 
-                <a href="https://github.com/Marcinzale/AndroidJavaChatGPTClient" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/Marcinzale/AndroidJavaChatGPTClient"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -82,9 +91,11 @@ const Work = () => {
 
           {/* Work card 2 */}
           <div
-            style={{ backgroundImage: `url(${Bmi})`,
-            backgroundSize: 'contain',
-            backgroundRepeat: 'no-repeat'  }}
+            style={{
+              backgroundImage: `url(${Bmi})`,
+              backgroundSize: "contain",
+              backgroundRepeat: "no-repeat",
+            }}
             className="shadow-lg shadow-gray-900 group container rounded-md flex justify-center items-center mx-auto content-div "
           >
             {/* Hover effects */}
@@ -116,9 +127,11 @@ const Work = () => {
 
           {/* Work card 3 */}
           <div
-            style={{ backgroundImage: `url(${Coin})`,
-            backgroundSize: 'contain',
-            backgroundRepeat: 'no-repeat'  }}
+            style={{
+              backgroundImage: `url(${Coin})`,
+              backgroundSize: "contain",
+              backgroundRepeat: "no-repeat",
+            }}
             className="shadow-gray-900 group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
@@ -129,14 +142,18 @@ const Work = () => {
 
               {/* Buttons on work card */}
               <div className="pt-8 text-center">
-              <button
+                <button
                   onClick={() => setShowModalCoin(true)}
                   className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                 >
                   Demo
                 </button>
 
-                <a href="https://github.com/Marcinzale/FlipTheCoin" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/Marcinzale/FlipTheCoin"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -146,11 +163,13 @@ const Work = () => {
           </div>
           {/* End of work card 3 */}
 
-           {/* Work card 4 */}
-           <div
-            style={{ backgroundImage: `url(${Weather})`,
-            backgroundSize: 'contain',
-            backgroundRepeat: 'no-repeat'  }}
+          {/* Work card 4 */}
+          <div
+            style={{
+              backgroundImage: `url(${Weather})`,
+              backgroundSize: "contain",
+              backgroundRepeat: "no-repeat",
+            }}
             className="shadow-lg shadow-gray-900 group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
@@ -161,7 +180,7 @@ const Work = () => {
 
               {/* Buttons on work card */}
               <div className="pt-8 text-center">
-              <button
+                <button
                   onClick={() => setShowModalWeather(true)}
                   className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                 >
@@ -219,8 +238,6 @@ const Work = () => {
           </div>
           {/* End of work card 5 */}
 
-         
-
           {/* Work card 6 */}
           <div
             style={{ backgroundImage: `url(${ThisWebsite})` }}
@@ -234,7 +251,7 @@ const Work = () => {
 
               {/* Buttons on work card */}
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
