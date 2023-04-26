@@ -1,13 +1,10 @@
 import React, { useState } from "react";
-import WorkImg from "../assets/projects/workImg.jpeg";
-import RealEstate from "../assets/projects/realestate.jpg";
 
 import ChatGpt from "../assets/ChatGpt.jpg";
 import Bmi from "../assets/Bmi.jpg";
 import Coin from "../assets/Coin.jpg";
 import Weather from "../assets/Weather.jpg";
 import WeatherJS from "../assets/projects/WeatherJSImg.png";
-import QRCodeGenerator from "../assets/projects/QRCodeGen.png";
 import ThisWebsite from "../assets/projects/ThisWebsite.png";
 
 import ModalChatGpt from "./ModalChatGpt";
@@ -251,14 +248,14 @@ const Work = () => {
 
               {/* Buttons on work card */}
               <div className="pt-8 text-center">
-                <a href="">
+                <a href="https://marcinzale.github.io/my-portfolio">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
 
                 <a
-                  href="https://marcinzale.github.io/my-portfolio"
+                  href="https://github.com/Marcinzale/my-portfolio"
                   target="_blank"
                   rel="noreferrer"
                 >
