@@ -1,6 +1,6 @@
 {
-  "homepage": "http://marcinzale.github.io/my-portfolio",
-  "name": "my-portfolio",
+  "homepage": "http://marcinzale.github.io/",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
