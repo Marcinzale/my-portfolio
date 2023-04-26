@@ -241,7 +241,7 @@ const Work = () => {
                 </a>
 
                 <a
-                  href="https://github.com/Marcinzale/react-tailwindcss-portfolio"
+                  href="https://marcinzale.github.io/my-portfolio"
                   target="_blank"
                   rel="noreferrer"
                 >
