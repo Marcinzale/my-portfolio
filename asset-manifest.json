@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.c9cd53d6.css",
-    "main.js": "/my-portfolio/static/js/main.b98c3c63.js",
+    "main.js": "/my-portfolio/static/js/main.175f138e.js",
     "static/media/Coin.mp4": "/my-portfolio/static/media/Coin.d7044b6c035cb0eaa513.mp4",
     "static/media/BmiVideo.mp4": "/my-portfolio/static/media/BmiVideo.1500454a0bccca8e16e5.mp4",
     "static/media/JavaChatGPTdemo.mp4": "/my-portfolio/static/media/JavaChatGPTdemo.e358912df0179aaa8b49.mp4",
@@ -11,8 +11,8 @@
     "static/media/Bmi.jpg": "/my-portfolio/static/media/Bmi.660e9f36d465208c8e6b.jpg",
     "static/media/workImg.jpeg": "/my-portfolio/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "static/media/ThisWebsite.png": "/my-portfolio/static/media/ThisWebsite.2c9c9bf9047d53817a52.png",
-    "static/media/CV_Marcin_Zalewski.pdf": "/my-portfolio/static/media/CV_Marcin_Zalewski.c549f4e7a611e7ba6d86.pdf",
     "static/media/WeatherJSImg.png": "/my-portfolio/static/media/WeatherJSImg.398d37d90ba8f3ed7e81.png",
+    "static/media/CV_Marcin_Zalewski.pdf": "/my-portfolio/static/media/CV_Marcin_Zalewski.21035cd339bd7e1999b9.pdf",
     "static/media/Coin.jpg": "/my-portfolio/static/media/Coin.2dc84f3d71c3e28c0dba.jpg",
     "static/media/Weather.jpg": "/my-portfolio/static/media/Weather.95a79623fcb4230aaa4b.jpg",
     "static/media/React_logo.png": "/my-portfolio/static/media/React_logo.0cf951a69d8e58f83f9d.png",
@@ -29,10 +29,10 @@
     "static/media/mz-logo.png": "/my-portfolio/static/media/mz-logo.d3197063a13656387b23.png",
     "index.html": "/my-portfolio/index.html",
     "main.c9cd53d6.css.map": "/my-portfolio/static/css/main.c9cd53d6.css.map",
-    "main.b98c3c63.js.map": "/my-portfolio/static/js/main.b98c3c63.js.map"
+    "main.175f138e.js.map": "/my-portfolio/static/js/main.175f138e.js.map"
   },
   "entrypoints": [
     "static/css/main.c9cd53d6.css",
-    "static/js/main.b98c3c63.js"
+    "static/js/main.175f138e.js"
   ]
 }
