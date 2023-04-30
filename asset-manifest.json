@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.3e12eff3.css",
-    "main.js": "/my-portfolio/static/js/main.a2189aa2.js",
+    "main.css": "/my-portfolio/static/css/main.5b6f9486.css",
+    "main.js": "/my-portfolio/static/js/main.89eaf682.js",
     "static/media/Coin.mp4": "/my-portfolio/static/media/Coin.d7044b6c035cb0eaa513.mp4",
     "static/media/BmiVideo.mp4": "/my-portfolio/static/media/BmiVideo.1500454a0bccca8e16e5.mp4",
     "static/media/JavaChatGPTdemo.mp4": "/my-portfolio/static/media/JavaChatGPTdemo.e358912df0179aaa8b49.mp4",
     "static/media/FlutterWeather.mp4": "/my-portfolio/static/media/FlutterWeather.c38e0789de7bec476102.mp4",
     "static/media/ChatGpt.jpg": "/my-portfolio/static/media/ChatGpt.a831dc5337078336c903.jpg",
     "static/media/Bmi.jpg": "/my-portfolio/static/media/Bmi.660e9f36d465208c8e6b.jpg",
+    "static/media/Foto_profilowe.png": "/my-portfolio/static/media/Foto_profilowe.8d29948c9867cec06418.png",
     "static/media/ThisWebsite.png": "/my-portfolio/static/media/ThisWebsite.2c9c9bf9047d53817a52.png",
     "static/media/WeatherJSImg.png": "/my-portfolio/static/media/WeatherJSImg.398d37d90ba8f3ed7e81.png",
     "static/media/CV_Marcin_Zalewski.pdf": "/my-portfolio/static/media/CV_Marcin_Zalewski.21035cd339bd7e1999b9.pdf",
@@ -25,11 +26,11 @@
     "static/media/Javascript_logo.png": "/my-portfolio/static/media/Javascript_logo.1ccd6ef9bb1f9c84ef00.png",
     "static/media/mz-logo.png": "/my-portfolio/static/media/mz-logo.d3197063a13656387b23.png",
     "index.html": "/my-portfolio/index.html",
-    "main.3e12eff3.css.map": "/my-portfolio/static/css/main.3e12eff3.css.map",
-    "main.a2189aa2.js.map": "/my-portfolio/static/js/main.a2189aa2.js.map"
+    "main.5b6f9486.css.map": "/my-portfolio/static/css/main.5b6f9486.css.map",
+    "main.89eaf682.js.map": "/my-portfolio/static/js/main.89eaf682.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e12eff3.css",
-    "static/js/main.a2189aa2.js"
+    "static/css/main.5b6f9486.css",
+    "static/js/main.89eaf682.js"
   ]
 }
