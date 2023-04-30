@@ -8,18 +8,28 @@ const Home = () => {
       {/* Container */}
 
       <div className="max-w-5xl mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-pink-500 text-xl sm:text-2xl">Hi, my name is</p>
-        <h1 className="text-3xl sm:text-6xl font-bold text-cyan-200">
-          Marcin Zalewski
-        </h1>
-        <h2 className="text-xl sm:text-4xl pt-2 text-gray-500">
-          I’m a mobile and web developer
-        </h2>
-        <p className="text-gray-400 py-4 max-w-lg">
-          I’m a mobile and web developer specializing in building and
-          designing exceptional digital experiences. Currently, I’m focused on
-          building Android mobile apps and responsive web pages.
-        </p>
+        <div className="w-full grid-cols-2 sm:grid gap-8 py-8">
+          <div>
+            <p className="text-pink-500 text-xl sm:text-2xl">Hi, my name is</p>
+            <h1 className="text-3xl sm:text-6xl font-bold text-cyan-200">
+              Marcin Zalewski
+            </h1>
+            <h2 className="text-xl sm:text-3xl pt-2 text-gray-500">
+              I’m a mobile and web developer
+            </h2>
+            <p className="text-gray-400 py-4 max-w-lg">
+              I’m a mobile and web developer specializing in building and
+              designing exceptional digital experiences. Currently, I’m focused
+              on building Android mobile apps and responsive web pages.
+            </p>
+          </div>
+          <div >
+            <img className="w-40 object-contain sm:w-60"
+              src={require("../assets/Foto_profilowe.png")}
+              alt="Profile photo"
+            />
+          </div>
+        </div>
 
         <div>
           <Link to="work" smooth={true} duration={1000}>
