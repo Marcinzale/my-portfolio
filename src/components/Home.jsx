@@ -24,7 +24,7 @@ const Home = () => {
               responsive web pages.
             </p>
           </div>
-          <div className="w-auto p-4">
+          <div className="w-auto p-4" class='fade-in-effect'>
             <img
               className="w-40 object-contain sm:w-60 bg-slate-400 rounded-full shadow-black shadow-2xl border-2 border-cyan-200"
               src={require("../assets/Foto_profilowe.png")}

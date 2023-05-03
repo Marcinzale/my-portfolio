@@ -29,6 +29,20 @@
         Gray
         /* rgba(112, 157, 255, 0.8),
         hsla(242, 74%, 61%, 0.8)    */
-    )!important;
-            
+    )!important;            
+}
+
+.fade-in-effect {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    padding: 20px;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
