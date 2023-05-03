@@ -6,7 +6,7 @@ import {
   FaLinkedin,
   FaFacebook,
 } from "react-icons/fa";
-import { HiMail } from "react-icons/hi";
+
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/mz-logo.png";
@@ -22,37 +22,45 @@ const Navbar = () => {
       <img src={Logo} alt="Logo" className="w-20" />
 
       {/* Menu */}
-      <ul className="hidden md:flex">
-        <li className="hover:text-pink-500">
-          <Link to="home" smooth={true} duration={1000}>
-            Home
-          </Link>
-        </li>
+      <nav className="navbar">
+        <ul className="hidden md:flex">
+          <li className="hover:text-pink-500 hover:underline underline-offset-8 decoration-2">
+            <Link to="home" smooth={true} duration={1000}>
+              Home
+            </Link>
+          </li>
 
-        <li className="hover:text-pink-500">
-          <Link to="about" smooth={true} duration={1000}>
-            About
-          </Link>
-        </li>
+          <li className="hover:text-pink-500 hover:underline underline-offset-8 decoration-2">
+            <Link to="about" smooth={true} duration={1000}>
+              About
+            </Link>
+          </li>
 
-        <li className="hover:text-pink-500">
-          <Link to="skills" smooth={true} duration={1000}>
-            Skills
-          </Link>
-        </li>
+          <li className="hover:text-pink-500 hover:underline underline-offset-8 decoration-2">
+            <Link to="skills" smooth={true} duration={1000}>
+              Skills
+            </Link>
+          </li>
 
-        <li className="hover:text-pink-500">
-          <Link to="work" smooth={true} duration={1000}>
-            Work
-          </Link>
-        </li>
+          <li className="hover:text-pink-500 hover:underline underline-offset-8 decoration-2">
+            <Link to="work" smooth={true} duration={1000}>
+              Work
+            </Link>
+          </li>
 
-        <li className="hover:text-pink-500">
-          <Link to="contact" smooth={true} duration={1000}>
-            Contact
-          </Link>
-        </li>
-      </ul>
+          <li className="hover:text-pink-500 hover:underline underline-offset-8 decoration-2">
+            <Link 
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              className="active:text-pink-400"
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </nav>
 
       {/* Hamburger menu */}
 
