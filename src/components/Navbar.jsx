@@ -24,36 +24,40 @@ const Navbar = () => {
       <nav className="navbar">
         <ul className="hidden md:flex">
           <li className="hover:text-pink-500 hover:underline underline-offset-8 decoration-2">
-            <Link to="home" smooth={true} duration={1000}>
+            <Link activeStyle={{color: 'rgb(236 72 153)'}} spy={true} to="home" smooth={true} duration={1000}>
               Home
             </Link>
           </li>
 
           <li className="hover:text-pink-500 hover:underline underline-offset-8 decoration-2">
-            <Link to="about" smooth={true} duration={1000}>
+            <Link activeStyle={{color: 'rgb(236 72 153)'}} spy={true} to="about" smooth={true} duration={1000}>
               About
             </Link>
           </li>
 
           <li className="hover:text-pink-500 hover:underline underline-offset-8 decoration-2">
-            <Link to="skills" smooth={true} duration={1000}>
+            <Link activeStyle={{color: 'rgb(236 72 153)'}} spy={true} to="skills" smooth={true} duration={1000}>
               Skills
             </Link>
           </li>
 
           <li className="hover:text-pink-500 hover:underline underline-offset-8 decoration-2">
-            <Link to="work" smooth={true} duration={1000}>
+            <Link activeStyle={{color: 'rgb(236 72 153)'}} 
+              to="work" 
+              spy={true} 
+              smooth={true} 
+              duration={1000}
+              >
               Work
             </Link>
           </li>
 
           <li className="hover:text-pink-500 hover:underline underline-offset-8 decoration-2">
-            <Link 
+            <Link activeStyle={{color: 'rgb(236 72 153)'}}
               to="contact"
               spy={true}
               smooth={true}
               duration={1000}
-              className="active:text-pink-400"
             >
               Contact
             </Link>
