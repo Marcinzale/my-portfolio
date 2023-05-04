@@ -8,10 +8,10 @@ import HTML from '../assets/Html_logo.png';
 import CSS from '../assets/Css_logo.png';
 import JavaScript from '../assets/Javascript_logo.png';
 import GitHub from '../assets/Github_logo.png';
-import Python from '../assets/Python_logo.png';
-import Tailwind from '../assets/Tailwind_logo.png';
-import Bootstrap from '../assets/Bootstrap_logo.png';
-import Figma from '../assets/Figma_logo.png';
+// import Python from '../assets/Python_logo.png';
+// import Tailwind from '../assets/Tailwind_logo.png';
+// import Bootstrap from '../assets/Bootstrap_logo.png';
+// import Figma from '../assets/Figma_logo.png';
 
 const Skills = () => {
   return (
