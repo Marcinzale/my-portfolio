@@ -29,11 +29,11 @@ const Work = () => {
       className="w-full h-full md:h-screen bg-blue-950 text-gray-300 pt-14"
     >
       <div className="max-w-5xl mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div>
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
             Work
           </p>
-          <p className="py-6">Check out some of my recent work</p>
+          <p className="py-4">Check out some of my recent work</p>
           {/* <p className="text-stone-400 text-sm">- Mobile projects</p> */}
         </div>
 

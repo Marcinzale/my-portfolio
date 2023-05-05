@@ -15,7 +15,7 @@ import GitHub from '../assets/Github_logo.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-blue-950 text-gray-300'>
+    <div name='skills' className='w-full h-screen bg-blue-950 text-gray-300 pt-40 sm:pt-4'>
       
       {/* Container Title*/}
       <div className='max-w-5xl mx-auto p-4 flex flex-col justify-center w-full h-full'>
